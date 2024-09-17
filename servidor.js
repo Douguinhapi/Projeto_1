@@ -37,6 +37,3 @@ app.get("/tartaruga", (req,res) =>{
     res.sendFile(path.join(__dirname, "views", "tartaruga.html"))
 })
 
-app.listen(PORTA,()=>{
-    console.log(`Servidor rodando na porta: localhost:${PORTA}`)
-})
